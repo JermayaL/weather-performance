@@ -1,8 +1,9 @@
 const client_IDs = ['XXX-XXX-XXXX', XXX-XXX-XXXX']
 var OPEN_WEATHER_MAP_API_KEY = '6ec5eb4b0a1907e40cXXXXXXXXXXXXXX';
+
 ###https://docs.google.com/spreadsheets/d/1KXD6iN0RTqMDLnwOa8Y0R6GtnmiAQYmW-_HAH2DIAZM/copy
 function main() {
-  var ss = SpreadsheetApp.openById('1Khgbha7EvxM6h-_SH8TZ8dNxRxreWBXNnAGCYS32PS4')
+  var ss = SpreadsheetApp.openById('1KXD6iN0RTqMDLnwOa8Y0R6GtnmiAQYmW-_HAH2DIAZM')
   var cities_sheet = ss.getSheetByName("Cities")
   
   // var dashboard_sheet = ss.getSheetByName("Dashboard")
