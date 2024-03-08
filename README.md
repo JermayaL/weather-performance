@@ -7,7 +7,7 @@ Introducing a MCC-level script that seamlessly integrates weather data with Goog
 <li>Add the Google Ads script.</li>
 <li>Add the OPEN_WEATHER_MAP_API_KEY in row 2.</li>
 <li>Add the Client IDs in row 1.</li>
-<li>Copy the spreadsheet url: https://docs.google.com/spreadsheets/d/1KXD6iN0RTqMDLnwOa8Y0R6GtnmiAQYmW-_HAH2DIAZM/copy == make a copy of the spreadsheet. Use the spreadsheet ID in row 7.</li>
+<li>Copy the spreadsheet url: https://docs.google.com/spreadsheets/d/1KXD6iN0RTqMDLnwOa8Y0R6GtnmiAQYmW-_HAH2DIAZM/copy == make a copy of the spreadsheet. Adjust the: var ss = SpreadsheetApp.openById value to your ID (1KXD6iN0RTqMDLnwOa8Y0R6GtnmiAQYmW-_HAH2DIAZM).</li>
 </ol>
 
 The client IDs are converted to different tabs. Run the script every day.
